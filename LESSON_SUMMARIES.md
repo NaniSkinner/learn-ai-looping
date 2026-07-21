@@ -86,6 +86,27 @@ Before an agent plans or changes anything, convert the request into a four-part 
 
 Define the evidence before execution. Otherwise, the finish line can move to match whatever the agent produced.
 
+## Lesson 03 — Orient to Truth
+
+### Core idea
+
+Before proposing a change, orient to three different states:
+
+- **Code truth:** What the implementation currently says to do.
+- **Data truth:** What values or state the implementation actually produces.
+- **Decision truth:** What behavior the authorized requirement says should exist.
+
+### Evidence boundary
+
+- **Observed:** Directly supported by an inspected file, command output, test result, runtime state, or written decision.
+- **Inferred:** Reasoned, predicted, or proposed beyond what the inspected evidence directly establishes.
+
+A paraphrase can still be observed when the source directly supports it. A plausible fix remains inferred until execution and verification produce evidence.
+
+### Durable takeaway
+
+Do not let a likely explanation silently become a fact. Keep observations and inferences labeled until evidence closes the gap.
+
 ---
 
-Next summary: Lesson 03, after its mastery gate is ready.
+Next summary: Lesson 04, after its mastery gate is ready.
