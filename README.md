@@ -27,6 +27,7 @@ After that, [JOURNEY.md](JOURNEY.md) is the single course map. Every lesson also
 ```text
 START_HERE.md       setup and first action
 JOURNEY.md          ordered lesson checklist
+LESSON_SUMMARIES.md retrieval-first summaries of completed lessons
 lessons/            the 10–15 minute learning units
 challenges/         safe problems used during the lessons
 loop_lab/           dependency-free toy application

@@ -13,6 +13,7 @@ Own one complete manual AI loop:
 - Each lesson requires **Explain → Execute → Verify** evidence.
 - Your instructor responds **Ready**, **Revisit**, or **Stretch**.
 - Update `learner/progress.md` with your current lesson and exact next action before stopping.
+- Retrieve first, then use [LESSON_SUMMARIES.md](LESSON_SUMMARIES.md) to check completed lessons.
 
 ## Ordered checklist
 

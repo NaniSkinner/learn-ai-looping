@@ -27,7 +27,8 @@ When returning later:
 1. Open `learner/progress.md`.
 2. Read only the current lesson and exact next action.
 3. Try to retrieve the prior idea before reading your notes.
-4. Use [JOURNEY.md](JOURNEY.md) only when you need the complete map.
+4. Compare your retrieval with [LESSON_SUMMARIES.md](LESSON_SUMMARIES.md).
+5. Use [JOURNEY.md](JOURNEY.md) only when you need the complete map.
 
 ## Time available right now
 
@@ -37,4 +38,4 @@ When returning later:
 
 Time does not unlock the next lesson. Evidence does.
 
-[View the complete journey →](JOURNEY.md)
+[Review completed lesson summaries](LESSON_SUMMARIES.md) · [View the complete journey →](JOURNEY.md)
