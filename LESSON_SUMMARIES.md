@@ -63,6 +63,29 @@ Each stage answers a different question:
 
 A polished code change can still fail the loop when nobody independently verifies it.
 
+## Lesson 02 — Contract the Task
+
+### Core idea
+
+Before an agent plans or changes anything, convert the request into a four-part contract:
+
+- **Goal:** The outcome to create.
+- **Context:** The specific source material and current behavior that matter.
+- **Constraints:** The boundaries, risks, protected behavior, and limits of the agent's authority.
+- **Done when:** Observable evidence that distinguishes completion from a plausible claim.
+
+### Important distinctions
+
+- A vague request such as “fix the bug” forces the agent to invent missing requirements.
+- Context is not every available document. It is the evidence relevant to this task.
+- Constraints state what must remain unchanged as well as what may change.
+- Review, opening a pull request, and running unspecified tests are workflow activities. They do not prove the desired behavior.
+- Strong done-when statements name observable behavior and how it will be checked with a test, command, or diff.
+
+### Durable takeaway
+
+Define the evidence before execution. Otherwise, the finish line can move to match whatever the agent produced.
+
 ---
 
-Next summary: Lesson 02, after its mastery gate is ready.
+Next summary: Lesson 03, after its mastery gate is ready.
