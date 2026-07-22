@@ -107,6 +107,31 @@ A paraphrase can still be observed when the source directly supports it. A plaus
 
 Do not let a likely explanation silently become a fact. Keep observations and inferences labeled until evidence closes the gap.
 
+## Lesson 04 — Predict Before Prompting
+
+### Core idea
+
+Write a prediction before the agent provides a plan or answer. This forces the human to build a model first and prevents the agent's fluent explanation from becoming the only available model.
+
+A useful prediction covers:
+
+- files likely to change,
+- the smallest implementation change,
+- a test that should fail before the fix,
+- behavior that must remain unchanged,
+- one tempting but unnecessary change,
+- confidence in each prediction.
+
+### Why wrong predictions matter
+
+A prediction is not a promise or a score. When evidence or the later plan disagrees, the difference reveals a gap worth investigating. Without the written prediction, hindsight can make the agent's answer feel obvious and hide what the human actually learned.
+
+Prediction and verification have different jobs: prediction exposes the starting model; verification later tests the resulting claim.
+
+### Durable takeaway
+
+Timestamp the prediction before seeing the agent plan. The learning lives in the difference between what you expected and what the evidence later shows.
+
 ---
 
-Next summary: Lesson 04, after its mastery gate is ready.
+Next summary: Lesson 05, after its mastery gate is ready.
