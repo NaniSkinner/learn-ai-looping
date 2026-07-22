@@ -21,8 +21,8 @@ Own one complete manual AI loop:
 - [ ] [01 — Name the Loop](lessons/01-name-the-loop.md): explain the eight stages.
 - [ ] [02 — Contract the Task](lessons/02-contract-the-task.md): write goal, context, constraints, and done-when evidence.
 - [ ] [03 — Orient to Truth](lessons/03-orient-to-truth.md): distinguish code, data, and decision truth.
-- [ ] [04 — Predict Before Prompting](lessons/04-predict-before-prompting.md): make your model visible before the agent answers.
-- [ ] [05 — Plan and Compare](lessons/05-plan-and-compare.md): treat the agent plan as a proposal.
+- [ ] [04 — Predict Before Prompting](lessons/04-predict-before-prompting.md): create a timestamped before snapshot of your model.
+- [ ] [05 — Plan and Compare](lessons/05-plan-and-compare.md): compare that snapshot with the agent's proposed route.
 - [ ] [06 — Execute the Smallest Step](lessons/06-execute-smallest-step.md): make one reversible, bounded change.
 - [ ] [07 — Verify Three Truths](lessons/07-verify-three-truths.md): prove the behavior and the final claim.
 - [ ] [08 — Review and Explain](lessons/08-review-and-explain.md): teach the change back without the transcript.

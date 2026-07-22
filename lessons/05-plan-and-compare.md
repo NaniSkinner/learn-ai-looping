@@ -4,28 +4,43 @@
 
 Time: 10–15 minutes
 
-## Learn
+## Outcome
+
+Compare the agent's proposed route with your Lesson 04 before snapshot, then authorize only the smallest in-scope execution boundary.
+
+> You are evaluating a plan in this lesson. You are not permitting edits yet.
+
+## Why this matters
 
 An agent plan is a proposal, not authority. Compare it with the task contract and your prediction before permitting edits.
 
-## Do
+## Request the plan
 
 Ask your agent:
 
-> Inspect the challenge and relevant files. Propose the smallest plan that satisfies my four-line contract. Do not edit files. Identify the pre-fix failing test, regression check, and any unnecessary work you rejected.
+> Inspect `challenges/01-blank-title.md`, `loop_lab/tasks.py`, and `tests/test_tasks.py`. Propose the smallest plan that satisfies the written requirement and boundaries. Do not edit files. For each step, name the file, reason, and verification evidence. Identify any unnecessary work you rejected.
 
-Compare the plan to your forecast:
+## Compare
 
-- agreements,
-- surprises,
-- prediction corrections,
-- plan items outside scope,
-- final authorized execution boundary.
+For each of the three predictions from Lesson 04, record:
+
+| Before snapshot | Agent plan | Same or different? | Question or evidence needed |
+|---|---|---|---|
+| Likely change area | | | |
+| Expected behavior | | | |
+| Protected behavior | | | |
+
+Then identify:
+
+- one agreement,
+- one surprise or correction, if any,
+- any plan item outside the contract,
+- the exact files and actions the agent may perform next.
 
 ## Gate
 
 - **Explain:** Why can a technically sound plan still be wrong for the task?
-- **Execute:** Produce the comparison.
+- **Execute:** Complete the three-row comparison.
 - **Verify:** State exactly what the agent may edit next.
 
 ---

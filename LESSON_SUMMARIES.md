@@ -111,26 +111,27 @@ Do not let a likely explanation silently become a fact. Keep observations and in
 
 ### Core idea
 
-Write a prediction before the agent provides a plan or answer. This forces the human to build a model first and prevents the agent's fluent explanation from becoming the only available model.
+Write a short **before snapshot** before the agent provides a plan. This preserves the human's starting model so Lesson 05 can compare it with the proposed route.
 
-A useful prediction covers:
+A core before snapshot contains only:
 
-- files likely to change,
-- the smallest implementation change,
-- a test that should fail before the fix,
-- behavior that must remain unchanged,
-- one tempting but unnecessary change,
-- confidence in each prediction.
+- the likely change area,
+- the expected behavior,
+- the behavior that must remain unchanged.
+
+The learner is not editing code, solving the bug, or writing the agent's plan during this step.
 
 ### Why wrong predictions matter
 
-A prediction is not a promise or a score. When evidence or the later plan disagrees, the difference reveals a gap worth investigating. Without the written prediction, hindsight can make the agent's answer feel obvious and hide what the human actually learned.
+A prediction is not a promise or a score. When the later plan disagrees, the difference reveals a question worth investigating. Without the written snapshot, hindsight can make the agent's answer feel obvious and hide what the human actually learned.
 
 Prediction and verification have different jobs: prediction exposes the starting model; verification later tests the resulting claim.
 
+Implementation details, test predictions, unnecessary work, and confidence ratings are optional stretch material after the three core predictions are clear.
+
 ### Durable takeaway
 
-Timestamp the prediction before seeing the agent plan. The learning lives in the difference between what you expected and what the evidence later shows.
+Timestamp the snapshot before seeing the agent plan. The learning lives in the later comparison, not in filling out a prediction template.
 
 ---
 

@@ -30,6 +30,7 @@ JOURNEY.md          ordered lesson checklist
 LESSON_SUMMARIES.md retrieval-first summaries of completed lessons
 lessons/            the 10–15 minute learning units
 challenges/         safe problems used during the lessons
+curriculum-notes/   evidence-backed improvements to the learning design
 loop_lab/           dependency-free toy application
 tests/              verification suite
 templates/          private progress and session-card templates

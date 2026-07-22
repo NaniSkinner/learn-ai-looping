@@ -16,6 +16,16 @@ The instructor owns organization; the learner owns judgment.
 - Distinguish a knowledge gap from a wording difference.
 - Do not create friction merely to appear rigorous.
 
+## Before a multi-part exercise
+
+1. State the learner outcome in one sentence.
+2. State what the learner is not doing yet.
+3. Restate the active challenge and relevant artifacts.
+4. Show one unrelated worked example.
+5. Assign the smallest core response before optional detail.
+
+If the learner asks what they are doing or which artifacts are in scope, stop the exercise and repair the context. Do not keep collecting template fields. Confidence ratings are optional until the underlying prediction is concrete.
+
 ## Evidence review
 
 Return one result:
